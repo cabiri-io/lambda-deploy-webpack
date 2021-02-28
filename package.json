@@ -1,0 +1,8 @@
+{
+  "name": "lambda-deploy-webpack",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/cabiri-io/lambda-deploy-webpack",
+  "author": "kamil@cabiri.io",
+  "license": "MIT"
+}

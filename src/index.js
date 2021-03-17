@@ -8,8 +8,8 @@ const fs = require("fs");
 class LambdaDeployPlugin {
   constructor(options) {
     this.project = options.project || process.env.CBR_PROJECT_KEY;
-    this.environment = options.environment || process.env.PLAY_CBR_APP_ENV;
-    this.workspace = options.environment || process.env.CBR_APP_WORKSPACE;
+    this.environment = options.environment || process.env.CBR_APP_ENV;
+    this.workspace = options.workspace || process.env.CBR_APP_WORKSPACE;
     this.service = options.service;
     this.lambdaName = options.lambdaName;
     this.deploy = options.deploy;
